@@ -1,0 +1,14 @@
+html
+  head
+    title Restaurant Ordering System
+  body
+    
+    h1 Registration
+    form(action='/user/register' method='post')
+      | Username: 
+      input(type='text' name='username' required='')
+      |  Password: 
+      input(type='password' name='password' required='')
+      |
+      |
+      button(type='submit') Register
